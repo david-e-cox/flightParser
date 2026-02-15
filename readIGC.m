@@ -1,5 +1,5 @@
 function [lat,lon,altPres,altGPS, hour,min,sec, fix3D,latD,lonD, extData] = readIGC(filename)
-%function [lat,lon,altPres,altGPS, hour,min,sec, fix3D,latD,lonD] = readIGC(filename)
+%function [lat,lon,altPres,altGPS, hour,min,sec, fix3D,latD,lonD, extData] = readIGC(filename)
 %
 % Parses the B-records of an IGC file and returns available data
 %   lon/lat are converted to decimal degrees (no minutes component)
